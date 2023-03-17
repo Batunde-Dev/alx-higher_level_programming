@@ -24,7 +24,6 @@ The Python code will be saved in the environment variable `$PYCODE`
 **2. Hello, print**
 
 Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
-
 	- Use the function `print`
 
 ```
@@ -36,18 +35,27 @@ root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./2-pri
 ```
 **3. Print integer**
 
-Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py "source code")in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py "source code") in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 
-- You can find the source code `here`
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py "here")
 - The output of the script should be:
 	- the number, followed by `Battery street`,
 	- followed by a new line
 - You are not allowed to cast the variable `number` into a string
 - Your code must be 3 lines long
-- You have to use f-strings `tips`
+- You have to use f-strings [tips](https://realpython.com/python-f-strings/ "tips")
 
 ```
 root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./3-print_number.py
 98 Battery street
 root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
 ```
+**4. Print float**
+
+Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py "here")
+- The output of the program should be:
+	- `Float:`, followed by the float with only 2 digits
+	- followed by a new line
+- You are not allowed to cast `number` to string
+- You have to use f-strings
