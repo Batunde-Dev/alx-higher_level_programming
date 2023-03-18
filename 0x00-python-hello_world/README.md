@@ -192,4 +192,21 @@ Write a Python script that prints exactly `and that piece of art is useful - Dor
 - You are not allowed to use `print`
 - Your script should print to `stderr`
 - Your script should exit with the status code `1`
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./100-write.py
+and that piece of art is useful - Dora Korpar, 2015-10-19
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# echo $
+$
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./100-write.py 2> q
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# cat q
+and that piece of art is useful - Dora Korpar, 2015-10-19
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**12. Compile**
+
+Write a script that compiles a Python script file.
+
+The Python file name will be stored in the environment variable `$PYFILE`
+
+The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
 
