@@ -209,4 +209,29 @@ Write a script that compiles a Python script file.
 The Python file name will be stored in the environment variable `$PYFILE`
 
 The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# vi main.py
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# export PYFILE=main.py
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./101-compile
+Compiling 'main.py'...
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ls
+0-run         101-compile       10-linked_lists.c  1-run_inline  3-print_number.py  5-print_string.py  7-edges.py         9-easter_egg.py  lists.h  main.pyc  README.md
+100-write.py  10-check_cycle.c  10-main.c          2-print.py    4-print_float.py   6-concat.py        8-concat_edges.py  cycle            main.py  q
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# cat main.pyc | zgrep -c "Best School"
+1
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFERENT
+0000000 55 0d 0d 0a 00 00 00 00 f1 aa 15 64 28 00 00 00
+0000020 e3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0000040 00 02 00 00 00 40 00 00 00 73 0c 00 00 00 65 00
+0000060 64 00 83 01 01 00 64 01 53 00 29 02 7a 0b 42 65
+0000100 73 74 20 53 63 68 6f 6f 6c 4e 29 01 da 05 70 72
+0000120 69 6e 74 a9 00 72 02 00 00 00 72 02 00 00 00 fa
+0000140 07 6d 61 69 6e 2e 70 79 da 08 3c 6d 6f 64 75 6c
+0000160 65 3e 02 00 00 00 f3 00 00 00 00
+0000173
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**13. ByteCode -> Python #1**
+
+Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
