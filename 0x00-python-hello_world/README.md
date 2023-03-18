@@ -87,3 +87,24 @@ root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
 ```
 **6. Play with strings**
 
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py "source code") to print `Welcome to Holberton School!`
+
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py "here")
+- You are not allowed to use any loops or conditional statements.
+- You have to use the variables `str1` and `str2` in your new line of code
+- Your program should be exactly 5 lines long
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./6-concat.py
+Welcome to Holberton School!
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**7. Copy - Cut - Paste**
+
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py "source code")
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py "here")
+- You are not allowed to use any loops or conditional statements
+- Your program should be exactly 8 lines long
+- `word_first_3` should contain the first 3 letters of the variable `word`
+- `word_last_2` should contain the last 2 letters of the variable `word`
+- `middle_word` should contain the value of the variable `word` without the first and last letters
+
