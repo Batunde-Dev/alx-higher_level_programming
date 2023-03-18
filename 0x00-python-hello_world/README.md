@@ -116,10 +116,18 @@ Middle word: olberto
 **8. Create a new sentence**
 
 Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py "source code") to print `object-oriented programming with Python`, followed by a new line.
-
 - You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py "here")
 - You are not allowed to use any loops or conditional statements
 - Your program should be exactly 5 lines long
 - You are not allowed to create new variables
 - You are not allowed to use string literals
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./8-concat_edges.py
+object-oriented programming with Python
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**9. Easter Egg**
+
+Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+- Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 
