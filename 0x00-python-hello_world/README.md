@@ -170,4 +170,26 @@ Write a function in C that checks if a singly linked list has a cycle in it.
 
 Requirements:
 - Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# gcc 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./cycle
+1024
+402
+98
+4
+3
+2
+1
+0
+Linked list has no cycle
+Linked list has a cycle
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**11. Hello, write**
+
+Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+- Use the function `write` from the `sys` module
+- You are not allowed to use `print`
+- Your script should print to `stderr`
+- Your script should exit with the status code `1`
 
