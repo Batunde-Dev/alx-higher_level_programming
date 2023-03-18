@@ -107,4 +107,19 @@ Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/mast
 - `word_first_3` should contain the first 3 letters of the variable `word`
 - `word_last_2` should contain the last 2 letters of the variable `word`
 - `middle_word` should contain the value of the variable `word` without the first and last letters
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./7-edges.py
+First 3 letters: Hol
+Last 2 letters: on
+Middle word: olberto
+```
+**8. Create a new sentence**
+
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py "source code") to print `object-oriented programming with Python`, followed by a new line.
+
+- You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py "here")
+- You are not allowed to use any loops or conditional statements
+- Your program should be exactly 5 lines long
+- You are not allowed to create new variables
+- You are not allowed to use string literals
 
