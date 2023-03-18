@@ -130,4 +130,44 @@ root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
 
 Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 - Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# ./9-easter_egg.py
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world# wc -m 9-easter_egg.py
+31 9-easter_egg.py
+root@c54b1b2b8256:/alx-higher_level_programming/0x00-python-hello_world#
+```
+**10. Linked list cycle**
+
+#### Technical interview preparation:
+- You are not allowed to google anything
+- Whiteboard first
+- This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+
+Write a function in C that checks if a singly linked list has a cycle in it.
+- Prototype: `int check_cycle(listint_t *list);`
+- Return: `0` if there is no cycle, `1` if there is a cycle
+
+Requirements:
+- Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
 
