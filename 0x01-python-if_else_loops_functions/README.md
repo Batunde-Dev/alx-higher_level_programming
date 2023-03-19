@@ -224,4 +224,19 @@ Numbers must be separated by `,`, followed by a space
 - You can only use no more than 2 loops in your code
 - You are not allowed to store numbers or strings in a variable
 - You are not allowed to import any module
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions# ./6-print_comb3.py
+01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+root@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+```
+**7. islower**
+
+Write a function that checks for lowercase character.
+- Prototype: `def islower(c):`
+- Returns `True` if `c` is lowercase
+- Returns `False` otherwise
+- You are not allowed to import any module
+- You are not allowed to use `str.upper()` and `str.isupper()`
+- [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord "Tips: ord()")
+You don’t need to understand `__import__`
 
