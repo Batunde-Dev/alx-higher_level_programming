@@ -82,3 +82,8 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 - You can only use one loop in your code
 - You are not allowed to store characters in a variable
 - You are not allowed to import any module
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions# ./3-print_alphabt.py
+abcdfghijklmnoprstuvwxyzroot@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+```
+
