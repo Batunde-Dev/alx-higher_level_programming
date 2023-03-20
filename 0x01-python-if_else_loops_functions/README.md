@@ -324,4 +324,18 @@ root@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functi
 ```
 **14. Smile in the mirror**
 
+Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
+- You can only use one `print` function with string format
+- You can only use one loop in your code
+- You are not allowed to store characters in a variable
+- You are not allowed to import any module
+```
+root@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions# ./100-print_tebahpla.py
+zYxWvUtSrQpOnMlKjIhGfEdCbAroot@c54b1b2b8256:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+```
+**15. Remove at position**
 
+Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
+- Prototype: `def remove_char_at(str, n):`
+- You are not allowed to import any module
+- You don’t need to understand `__import__`
