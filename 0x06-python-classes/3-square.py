@@ -27,7 +27,7 @@ class Square:
    
     def main():
 
-	    Square = area()
+	    Square = area(self)
 
     def area(self):
         """Class Square method.
