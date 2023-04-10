@@ -2,8 +2,8 @@
 """Defines a Rectangle class."""
 
 
-class Rectangle:	
-    """Represent a rectangle."""
+class Rectangle:
+    """Represent a Rectangle."""
 
     number_of_instances = 0
     print_symbol = "#"
